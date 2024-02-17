@@ -1,13 +1,17 @@
+import Container from './Container'
 import React from 'react'
+import Logo from './Logo'
+import UserMenu from './UserMenu'
 
 const Navbar = () => {
   return (
     <div className="w-full bg-white shadow-sm">
-        <div className="py4 border-b-[1px]">
+        <div className="py-4 border-b-[1px]">
             <Container>
-                <div className="flex justify-content item-center">
+                <div className="flex justify-between item-center">
                     <Logo />
                     <UserMenu />
+                
                 </div>
             </Container>
         </div>
