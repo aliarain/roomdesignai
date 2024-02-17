@@ -1,4 +1,6 @@
+import DowloadIcon from "@/components/DOwnloadIcon";
 import Image from "next/image";
+
 
 export default function Home() {
   return (
@@ -28,7 +30,7 @@ export default function Home() {
       </div>
     
     </div>
-    
+    <section>
     <div className="text-center max-w-3xl mb-4 text-3xl font-extrabold tracking-tight md:text-4xl mx-auto">
     AI-Powered Room and landscaping designs for your home.
     </div>
@@ -47,7 +49,7 @@ export default function Home() {
         </div>
       </div>
       <div className="col-span-1">
-        <div className="h-64 sm:h-96 w-full flex-center">
+        <div className="h-64 sm:h-96 w-full flex justify-center items-center">
           <Image
           className="rounded--lg object-cover"
           alt="photo"
@@ -69,6 +71,31 @@ export default function Home() {
         </div>
       </div>
     </div>
+    </section>
+
+
+
+    <section className="max-w-screen-xl mx-auto mt-8">
+      <div>
+         <h1 className="text-center max-w-3xl mb-4 text-3xl font-extrabold tracking-tight md:text-4xl mx-auto">
+           Loved by many world wide.
+         </h1>
+         <p className="text-center mt-5 text-lg font-light text-gray-500 max-w-4xl md:text-lg mx-auto">
+         336+ People can't be wrong. Let AI do magic for you.
+           </p>
+      </div>
+      
+      <div className="mt-8 px-4 py-8 max-w-screen-xl grid grid-cols-12 gap-4 w-full mx-auto">
+        <div  className="border-2 border-gray-200 rounded-lg px-4 py-6">
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="text-black w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24"><path d="M8 17l4 4 4-4m-4-5v9"></path><path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path></svg>
+        </div>
+
+      </div>
+
+    </section>  
+    
+
+
    </div>
   );
 }
