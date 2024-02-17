@@ -6,3 +6,9 @@
 .black_btn{
   @apply rounded-md border bg-black border-black py-2 px-4 text-white transition-all hover:bg-white hover:text-black text-base flex items-center justify-center;
 }
+.purple_gradient {
+  @apply bg-gradient-to-r from-indigo-400 via-purple-600 to-pink-500 bg-clip-text text-transparent;
+}
+.hero_desc{
+  @apply mt-5 text-lg font-light text-gray-500 max-w-2xl md:text-lg;
+}
