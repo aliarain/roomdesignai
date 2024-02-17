@@ -37,8 +37,35 @@ export default function Home() {
     </div>
     <div className="mt-8 px-4 py-8 max-w-screen-xl grid grid-cols-9 gap-4 w-full mx-auto"> 
       <div className="col-span-4">
-        <div className="h-64 sm:h-96 aspect-video bg-gay-100 relative">
-          <Image />
+        <div className="h-64 sm:h-96 w-full aspect-video bg-gray-100 relative">
+          <Image
+          className="rounded--lg object-cover"
+          alt="photo"
+          src="/assets/images/original-pic.jpg"
+          fill
+          />
+        </div>
+      </div>
+      <div className="col-span-1">
+        <div className="h-64 sm:h-96 w-full flex-center">
+          <Image
+          className="rounded--lg object-cover"
+          alt="photo"
+          src="/assets/images/arrow.jpg"
+          width={30}
+          height={30}
+
+          />
+        </div>
+      </div>
+      <div className="col-span-4">
+        <div className="h-64 sm:h-96 w-full aspect-video bg-gray-100 relative">
+          <Image
+          className="rounded--lg object-cover"
+          alt="photo"
+          src="/assets/images/generated-pic.jpg"
+          fill
+          />
         </div>
       </div>
     </div>
